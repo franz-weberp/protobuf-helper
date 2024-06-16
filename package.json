@@ -1,0 +1,10 @@
+{
+  "name": "protobuf-helper",
+  "version": "0.0.1",
+  "dependencies": {
+    "protobufjs": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
