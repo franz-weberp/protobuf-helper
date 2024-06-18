@@ -1,10 +1,16 @@
 {
+  "type": "module",
   "name": "protobuf-helper",
   "version": "0.0.1",
+  "main": "./dist/protobufHelper.js",
+  "scripts": {
+    "postinstall": "npx tsc"
+  },
   "dependencies": {
     "protobufjs": "^7.3.2"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2"
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
   }
 }
